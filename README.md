@@ -1,2 +1,2 @@
 # Melagis
-Card game
+"Melagis" Card game repository
