@@ -1,0 +1,60 @@
+{
+    "name": "Input",
+    "maps": [
+        {
+            "name": "MarozasControls",
+            "id": "a370e11c-dca3-4de2-ac63-b9051a703d02",
+            "actions": [
+                {
+                    "name": "MouseClick",
+                    "type": "Button",
+                    "id": "b7f40c68-975a-40de-956a-60890bf7ebc8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MousePosition",
+                    "type": "Value",
+                    "id": "18b3a514-c615-405d-ad81-d9cd328badef",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "03dc935b-f8cf-4a70-a601-0d743a31dd7c",
+                    "path": "<Mouse>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "GameControls",
+                    "action": "MouseClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "175add0f-256c-4b43-8f7d-87f443d2a626",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "GameControls",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "GameControls",
+            "bindingGroup": "GameControls",
+            "devices": []
+        }
+    ]
+}
